@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " pp",
+      " sp",
+      " s "
+    ],
+    "key": {
+      "p": {
+        "item": "pleyacraft:pleyarite_ingot"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "pleyacraft:pleyarite_axe"
+    }
+  }

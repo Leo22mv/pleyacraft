@@ -1,0 +1,6 @@
+{
+    "parent" : "minecraft:block/cube_all",
+    "textures" : {
+        "all" : "pleyacraft:items/pleyarite_ore_block"
+    }
+}
