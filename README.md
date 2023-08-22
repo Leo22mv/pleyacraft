@@ -1,4 +1,4 @@
-¡Muchas gracias por instalar Pleyacraft!
+¡Bienvenido a Pleyacraft!
 
 Notas de la versión 1.0:
 
