@@ -25,7 +25,12 @@ public class InitBlocks {
     public static final RegistryObject<Block> PLEYARITE_ORE_BLOCK = register(
         "pleyarite_ore_block",
         () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(2.5f).requiresCorrectToolForDrops()),
-        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS));
+        new Item.Properties().tab(Pleyacraft.TAB));
+
+    public static final RegistryObject<Block> PLEYARITE_BLOCK = register(
+        "pleyarite_block",
+        () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3.0f).requiresCorrectToolForDrops()),
+        new Item.Properties().tab(Pleyacraft.TAB));
 
     private static <T extends Block> RegistryObject<T> register(
             String name,

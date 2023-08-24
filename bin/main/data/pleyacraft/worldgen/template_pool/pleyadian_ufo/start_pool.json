@@ -1,0 +1,15 @@
+{
+    "name": "pleyacraft:pleyadian_ufo/start_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "pleyacraft:pleyadian_ufo",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

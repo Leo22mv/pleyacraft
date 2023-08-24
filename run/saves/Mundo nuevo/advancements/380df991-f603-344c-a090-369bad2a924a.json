@@ -1,7 +1,10 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2023-08-22 06:30:57 -0300"
+      "minecraft:sparse_jungle": "2023-08-24 00:52:39 -0300",
+      "minecraft:grove": "2023-08-24 00:54:05 -0300",
+      "minecraft:forest": "2023-08-24 00:53:50 -0300",
+      "minecraft:old_growth_birch_forest": "2023-08-24 00:54:07 -0300"
     },
     "done": false
   },

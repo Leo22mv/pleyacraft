@@ -5,5 +5,9 @@
     "item.pleyacraft.pleyarite_pickaxe" : "Pico de pleyarita",
     "item.pleyacraft.pleyarite_axe" : "Hacha de pleyarita",
     "item.pleyacraft.pleyarite_hoe" : "Azada de pleyarita",
-    "block.pleyacraft.pleyarite_ore_block" : "Mineral de pleyarita"
+    "item.pleyacraft.pleyadian_spawn_egg" : "Generar pleyadiano",
+    "block.pleyacraft.pleyarite_ore_block" : "Mineral de pleyarita",
+    "block.pleyacraft.pleyarite_block" : "Bloque de pleyarita",
+    "entity.pleyacraft.pleyadian" : "Pleyadiano",
+    "itemGroup.pleyacraft" : "Pleyacraft"
 }

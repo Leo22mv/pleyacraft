@@ -1,9 +1,21 @@
 {
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-08-24 01:48:19 -0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:mangrove_swamp": "2023-08-22 06:47:08 -0300"
+      "minecraft:old_growth_pine_taiga": "2023-08-24 01:38:00 -0300"
     },
     "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-08-24 01:47:44 -0300"
+    },
+    "done": true
   },
   "DataVersion": 3105
 }

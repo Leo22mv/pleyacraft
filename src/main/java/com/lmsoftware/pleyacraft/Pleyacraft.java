@@ -1,14 +1,19 @@
 package com.lmsoftware.pleyacraft;
 
 import com.lmsoftware.pleyacraft.init.InitItems;
+import static com.lmsoftware.pleyacraft.init.InitMobs.MOBS;
 import com.lmsoftware.pleyacraft.init.PlaceFeature;
+import com.lmsoftware.pleyacraft.events.MobsAttrsEvent;
+import com.lmsoftware.pleyacraft.events.MobsRendererEvents;
 import com.lmsoftware.pleyacraft.init.InitBlocks;
 import com.lmsoftware.pleyacraft.init.InitFeatures;
 
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-// import static net.minecraftforge.common.MinecraftForge.EVENT_BUS;
+import static net.minecraftforge.common.MinecraftForge.EVENT_BUS;
 
 @Mod(Pleyacraft.MODID)
 public class Pleyacraft {
@@ -18,8 +23,17 @@ public class Pleyacraft {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         InitItems.ITEMS.register(bus);
         InitBlocks.BLOCKS.register(bus);
-        // EVENT_BUS.register(new Events());
+        EVENT_BUS.register(new MobsAttrsEvent());
+        EVENT_BUS.register(new MobsRendererEvents());
         InitFeatures.CONFIGURED_FEATURES.register(bus);
         PlaceFeature.PLACED_FEATURE.register(bus);
+        MOBS.register(bus);
     }   
+
+    public static final CreativeModeTab TAB = new CreativeModeTab(MODID) {
+        @Override
+        public ItemStack makeIcon() {
+            return InitItems.PLEYARITE_INGOT.get().getDefaultInstance();
+        }
+    };
 }

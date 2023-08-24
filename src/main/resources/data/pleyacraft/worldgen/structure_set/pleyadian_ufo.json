@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "pleyacraft:pleyadian_ufo",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 116541165,
+        "spacing": 7,
+        "separation": 5,
+        "type": "minecraft:random_spread"
+    }
+  }
