@@ -3,7 +3,7 @@ Specification-Title: pleyacraft
 Specification-Vendor: pleyacraftsareus
 Specification-Version: 1
 Implementation-Title: pleyacraft
-Implementation-Version: 1.1
+Implementation-Version: 1.2
 Implementation-Vendor: pleyacraftsareus
-Implementation-Timestamp: 2023-08-24T02:13:42-0300
+Implementation-Timestamp: 2023-08-25T19:30:25-0300
 

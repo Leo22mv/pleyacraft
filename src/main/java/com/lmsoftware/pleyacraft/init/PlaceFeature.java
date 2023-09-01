@@ -22,9 +22,18 @@ public class PlaceFeature {
     public static final RegistryObject<PlacedFeature> PLEYARITE_ORE = PLACED_FEATURE.register(
             "pleyarite_ore",
             () -> new PlacedFeature(InitFeatures.PLEYARITE_ORE.getHolder().get(),
-                    commonOrePlacement(100, HeightRangePlacement.triangle(
+                    commonOrePlacement(60, HeightRangePlacement.triangle(
                             VerticalAnchor.bottom(),
                             VerticalAnchor.absolute(100)
+                    )))
+    );
+
+    public static final RegistryObject<PlacedFeature> RIGERITE_ORE = PLACED_FEATURE.register(
+            "rigerite_ore",
+            () -> new PlacedFeature(InitFeatures.RIGERITE_ORE.getHolder().get(),
+                    commonOrePlacement(20, HeightRangePlacement.triangle(
+                            VerticalAnchor.bottom(),
+                            VerticalAnchor.absolute(40)
                     )))
     );
 

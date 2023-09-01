@@ -30,7 +30,17 @@ public class InitBlocks {
     public static final RegistryObject<Block> PLEYARITE_BLOCK = register(
         "pleyarite_block",
         () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3.0f).requiresCorrectToolForDrops()),
+        new Item.Properties().tab(Pleyacraft.TAB).fireResistant());
+
+    public static final RegistryObject<Block> RIGERITE_ORE_BLOCK = register(
+        "rigerite_ore_block",
+        () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(2.5f).requiresCorrectToolForDrops()),
         new Item.Properties().tab(Pleyacraft.TAB));
+
+    public static final RegistryObject<Block> RIGERITE_BLOCK = register(
+        "rigerite_block",
+        () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3.0f).requiresCorrectToolForDrops()),
+        new Item.Properties().tab(Pleyacraft.TAB).fireResistant());
 
     private static <T extends Block> RegistryObject<T> register(
             String name,

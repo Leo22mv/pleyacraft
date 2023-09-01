@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "pleyacraft:rigerite_block"
+      }
+    ],
+    "result": {
+      "item": "pleyacraft:rigerite_ingot",
+      "count": 9
+    }
+  }
+  

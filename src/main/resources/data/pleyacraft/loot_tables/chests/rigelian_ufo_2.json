@@ -1,0 +1,63 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 3,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "pleyacraft:rigerite_sword",
+            "weight": 30
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pleyacraft:rigerite_ingot",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pleyacraft:rigerite_block",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pleyacraft:ice_stone",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pleyacraft:elemental_staff",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }
+  

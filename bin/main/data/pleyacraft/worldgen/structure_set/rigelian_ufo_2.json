@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "pleyacraft:rigelian_ufo_2",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 56511318,
+        "spacing": 30,
+        "separation": 20,
+        "type": "minecraft:random_spread"
+    }
+  }

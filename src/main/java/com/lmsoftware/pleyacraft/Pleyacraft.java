@@ -3,8 +3,10 @@ package com.lmsoftware.pleyacraft;
 import com.lmsoftware.pleyacraft.init.InitItems;
 import static com.lmsoftware.pleyacraft.init.InitMobs.MOBS;
 import com.lmsoftware.pleyacraft.init.PlaceFeature;
+import com.lmsoftware.pleyacraft.events.Events;
 import com.lmsoftware.pleyacraft.events.MobsAttrsEvent;
 import com.lmsoftware.pleyacraft.events.MobsRendererEvents;
+import com.lmsoftware.pleyacraft.events.ElementalStaffEvents;
 import com.lmsoftware.pleyacraft.init.InitBlocks;
 import com.lmsoftware.pleyacraft.init.InitFeatures;
 
@@ -28,6 +30,8 @@ public class Pleyacraft {
         InitFeatures.CONFIGURED_FEATURES.register(bus);
         PlaceFeature.PLACED_FEATURE.register(bus);
         MOBS.register(bus);
+        // EVENT_BUS.register(new Events());
+        EVENT_BUS.register(new ElementalStaffEvents());
     }   
 
     public static final CreativeModeTab TAB = new CreativeModeTab(MODID) {

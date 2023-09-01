@@ -1,21 +1,52 @@
 {
-  "minecraft:recipes/decorations/chest": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_lots_of_items": "2023-08-24 01:48:19 -0300"
+      "in_water": "2023-08-25 06:59:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:59:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:59:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:59:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:59:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:59:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:59:10 -0300"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_pine_taiga": "2023-08-24 01:38:00 -0300"
+      "minecraft:forest": "2023-08-25 06:56:45 -0300",
+      "minecraft:plains": "2023-08-25 06:57:25 -0300"
     },
     "done": false
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2023-08-24 01:47:44 -0300"
-    },
-    "done": true
   },
   "DataVersion": 3105
 }

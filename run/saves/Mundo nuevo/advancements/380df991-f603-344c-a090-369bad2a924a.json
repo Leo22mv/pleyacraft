@@ -1,10 +1,50 @@
 {
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:40:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:40:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:40:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:40:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:40:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:40:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-08-25 06:40:49 -0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:sparse_jungle": "2023-08-24 00:52:39 -0300",
-      "minecraft:grove": "2023-08-24 00:54:05 -0300",
-      "minecraft:forest": "2023-08-24 00:53:50 -0300",
-      "minecraft:old_growth_birch_forest": "2023-08-24 00:54:07 -0300"
+      "minecraft:stony_shore": "2023-08-25 06:40:31 -0300",
+      "minecraft:forest": "2023-08-25 06:39:54 -0300"
     },
     "done": false
   },

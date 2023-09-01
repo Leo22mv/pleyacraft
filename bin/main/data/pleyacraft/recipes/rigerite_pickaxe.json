@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ppp",
+      " s ",
+      " s "
+    ],
+    "key": {
+      "p": {
+        "item": "pleyacraft:rigerite_ingot"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "pleyacraft:rigerite_pickaxe"
+    }
+  }

@@ -1,6 +1,9 @@
 {
     "replace" : false,
     "values" : [
-        "pleyacraft:pleyarite_ore_block"
+        "pleyacraft:pleyarite_ore_block",
+        "pleyacraft:pleyarite_block",
+        "pleyacraft:rigerite_ore_block",
+        "pleyacraft:rigerite_block"  
     ]
 }

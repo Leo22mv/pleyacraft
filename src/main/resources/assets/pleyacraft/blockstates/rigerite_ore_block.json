@@ -1,0 +1,7 @@
+{
+    "variants" : {
+        "": {
+            "model" : "pleyacraft:block/rigerite_ore_block"
+        }
+    }
+}

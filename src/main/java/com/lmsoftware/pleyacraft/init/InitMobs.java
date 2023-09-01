@@ -1,7 +1,11 @@
 package com.lmsoftware.pleyacraft.init;
 
+import java.util.function.Supplier;
+
 import com.lmsoftware.pleyacraft.Pleyacraft;
 import com.lmsoftware.pleyacraft.entities.PleyadianEntity;
+import com.lmsoftware.pleyacraft.entities.RigelianEntity;
+import com.lmsoftware.pleyacraft.entities.UpperPleyadianEntity;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -16,4 +20,12 @@ public class InitMobs {
     public static final RegistryObject<EntityType<PleyadianEntity>> PLEYADIAN =
         MOBS.register("pleyadian", () -> EntityType.Builder.of(PleyadianEntity::new, MobCategory.CREATURE)
         .build(Pleyacraft.MODID + ":pleyadian"));
+
+    public static final RegistryObject<EntityType<RigelianEntity>> RIGELIAN = 
+        MOBS.register("rigelian", () -> EntityType.Builder.of(RigelianEntity::new, MobCategory.MONSTER)
+        .build(Pleyacraft.MODID + ":rigelian"));
+
+    public static final RegistryObject<EntityType<UpperPleyadianEntity>> UPPER_PLEYADIAN =
+        MOBS.register("upper_pleyadian", () -> EntityType.Builder.of(UpperPleyadianEntity::new, MobCategory.CREATURE)
+        .build(Pleyacraft.MODID + ":upper_pleyadian"));
 }
