@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ppp",
+      "p p",
+      "p p"
+    ],
+    "key": {
+      "p": {
+        "item": "pleyacraft:pleyarite_ingot"
+      }
+    },
+    "result": {
+      "item": "pleyacraft:pleyarite_leggings"
+    }
+  }

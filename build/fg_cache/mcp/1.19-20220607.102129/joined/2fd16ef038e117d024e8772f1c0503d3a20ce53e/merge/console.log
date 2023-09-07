@@ -1,0 +1,6 @@
+JVM:         C:\Program Files\Java\jdk-17\bin\java.exe
+JVM Args:    
+Run Args:    "--client", "D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\stripClient\output.jar", "--server", "D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\stripServer\output.jar", "--ann", "1.19", "--output", "D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\merge\output.jar", "--inject", "false"
+Classpath:   C:\Users\Usuario\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

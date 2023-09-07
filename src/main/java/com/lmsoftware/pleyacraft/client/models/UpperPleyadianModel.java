@@ -19,7 +19,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class UpperPleyadianModel extends EntityModel<UpperPleyadianEntity> {
 
-	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation(Pleyacraft.MODID, "upper_pleyadian"), "main");
+	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation(Pleyacraft.MODID, "upper_pleyadian_model"), "main");
 	private final ModelPart bb_main;
 
 	public UpperPleyadianModel(ModelPart root) {

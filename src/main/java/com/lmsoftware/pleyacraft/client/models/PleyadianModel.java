@@ -18,7 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class PleyadianModel extends EntityModel<PleyadianEntity> {
 
-	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation(Pleyacraft.MODID, "pleyadian"), "main");
+	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation(Pleyacraft.MODID, "pleyadian_model"), "main");
 	private final ModelPart bb_main;
 
 	public PleyadianModel(ModelPart root) {

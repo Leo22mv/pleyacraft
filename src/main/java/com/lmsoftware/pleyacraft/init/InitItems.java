@@ -2,8 +2,10 @@ package com.lmsoftware.pleyacraft.init;
 
 import com.lmsoftware.pleyacraft.Pleyacraft;
 import com.lmsoftware.pleyacraft.entities.PleyadianEntity;
-import com.lmsoftware.pleyacraft.items.FireStoneItem;
-import com.lmsoftware.pleyacraft.items.IceStoneItem;
+import com.lmsoftware.pleyacraft.item.ElementalStaffItem;
+import com.lmsoftware.pleyacraft.item.FireStoneItem;
+import com.lmsoftware.pleyacraft.item.IceStoneItem;
+import com.lmsoftware.pleyacraft.item.RocketItem;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -169,7 +171,7 @@ public class InitItems {
 
     public static final RegistryObject<Item> UPPER_RIGELIAN_SPAWN_EGG = ITEMS.register(
             "upper_rigelian_spawn_egg", () -> new ForgeSpawnEggItem(
-                InitMobs.RIGELIAN,
+                InitMobs.UPPER_RIGELIAN,
             0x0000b9,
             0xffffff,
             (new Item.Properties()).tab(Pleyacraft.TAB))
@@ -184,15 +186,19 @@ public class InitItems {
     );
 
     public static final RegistryObject<Item> ELEMENTAL_STAFF = ITEMS.register(
-        "elemental_staff", () -> new Item(new Item.Properties().tab(Pleyacraft.TAB).fireResistant())
+        "elemental_staff", () -> new ElementalStaffItem(new Item.Properties().tab(Pleyacraft.TAB).stacksTo(1))
     );
 
     public static final RegistryObject<Item> ICE_STONE = ITEMS.register(
-        "ice_stone", () -> new IceStoneItem(new Item.Properties().tab(Pleyacraft.TAB))
+        "ice_stone", () -> new IceStoneItem(new Item.Properties().tab(Pleyacraft.TAB).stacksTo(16))
     );
 
     public static final RegistryObject<Item> FIRE_STONE = ITEMS.register(
-        "fire_stone", () -> new FireStoneItem(new Item.Properties().tab(Pleyacraft.TAB).fireResistant())
+        "fire_stone", () -> new FireStoneItem(new Item.Properties().tab(Pleyacraft.TAB).fireResistant().stacksTo(16))
+    );
+
+    public static final RegistryObject<Item> ROCKET = ITEMS.register(
+        "rocket", () -> new RocketItem(new Item.Properties().tab(Pleyacraft.TAB).fireResistant().stacksTo(1))
     );
 
     // public static final RegistryObject<Item> PLEYADIAN_UFO_RADAR = ITEMS.register(

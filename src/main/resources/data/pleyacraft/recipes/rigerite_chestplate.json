@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "r r",
+      "rrr",
+      "rrr"
+    ],
+    "key": {
+      "r": {
+        "item": "pleyacraft:rigerite_ingot"
+      }
+    },
+    "result": {
+      "item": "pleyacraft:rigerite_chestplate"
+    }
+  }

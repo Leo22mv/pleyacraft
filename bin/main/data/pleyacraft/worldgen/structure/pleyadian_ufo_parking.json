@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:jigsaw",
+	"start_pool": "pleyacraft:pleyadian_ufo_parking/start_pool",
+	"size": 2,
+	"max_distance_from_center": 80,
+	"biomes": "#pleyacraft:has_structure/pleyadian_ufo_parking",
+	"step": "surface_structures",
+	"start_height": {
+		"absolute": 0
+	},
+	"project_start_to_heightmap": "WORLD_SURFACE_WG",
+	"use_expansion_hack": false,
+	"spawn_overrides": {
+		"creature": {
+			"bounding_box": "piece",
+			"spawns": [
+                {
+					"type": "pleyacraft:pleyadian",
+					"weight": 1,
+					"minCount": 4,
+					"maxCount": 8
+				}
+            ]
+		}
+	}
+  }

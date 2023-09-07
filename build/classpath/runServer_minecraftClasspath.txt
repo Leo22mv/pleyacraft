@@ -1,4 +1,4 @@
-C:\Users\Usuario\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19-41.0.100_mapped_official_1.19\forge-1.19-41.0.100_mapped_official_1.19-recomp.jar
+D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\net\minecraftforge\forge\1.19-41.0.100_mapped_official_1.19\forge-1.19-41.0.100_mapped_official_1.19.jar
 C:\Users\Usuario\.gradle\caches\forge_gradle\minecraft_repo\versions\1.19\client-extra.jar
 C:\Users\Usuario\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19-41.0.100\ec1320e9bc46bc294352eedc05310259428ece2c\javafmllanguage-1.19-41.0.100.jar
 C:\Users\Usuario\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19-41.0.100\f531aa10ce148d0f55175496e9a6acf55b8dcb6d\lowcodelanguage-1.19-41.0.100.jar

@@ -37,6 +37,15 @@ public class PlaceFeature {
                     )))
     );
 
+    public static final RegistryObject<PlacedFeature> COPPER_ORE = PLACED_FEATURE.register(
+            "copper_ore",
+            () -> new PlacedFeature(InitFeatures.COPPER_ORE.getHolder().get(),
+                    commonOrePlacement(100, HeightRangePlacement.triangle(
+                            VerticalAnchor.bottom(),
+                            VerticalAnchor.absolute(100)
+                    )))
+    );
+
     private static List<PlacementModifier> commonOrePlacement(int countPerChunk, PlacementModifier height) {
         return List.of(CountPlacement.of(countPerChunk), InSquarePlacement.spread(), height, BiomeFilter.biome());
     }

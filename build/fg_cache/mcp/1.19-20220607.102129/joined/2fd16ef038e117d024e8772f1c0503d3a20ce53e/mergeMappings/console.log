@@ -1,0 +1,16 @@
+JVM:         C:\Program Files\Java\jdk-17\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\mergeMappings\output.jar"
+Classpath:   C:\Users\Usuario\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\mergeMappings\output.jar

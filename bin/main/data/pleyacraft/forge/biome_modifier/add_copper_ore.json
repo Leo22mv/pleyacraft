@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "pleyacraft:atlasbiome",
+    "features": "pleyacraft:copper_ore",
+    "step": "underground_ores"
+}

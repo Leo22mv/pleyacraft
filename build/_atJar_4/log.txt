@@ -1,0 +1,7 @@
+Java Launcher: C:\Program Files\Java\jdk-17\bin\java.exe
+Arguments: '--inJar, D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\net\minecraftforge\forge\1.19-41.0.100\forge-1.19-41.0.100-injected.jar, --outJar, D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\net\minecraftforge\forge\1.19-41.0.100_mapped_official_1.19\forge-1.19-41.0.100_mapped_official_1.19.jar, --logFile, accesstransform.log, --atFile, D:\Programacion\mods minecraft\pleyacraft\src\main\resources\META-INF\accesstransformer.cfg, --atFile, D:\Programacion\mods minecraft\pleyacraft\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\Usuario\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working directory: D:\Programacion\mods minecraft\pleyacraft\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

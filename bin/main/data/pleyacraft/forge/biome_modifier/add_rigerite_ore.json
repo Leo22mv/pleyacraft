@@ -1,6 +1,6 @@
 {
     "type": "forge:add_features",
-    "biomes": "#minecraft:is_overworld",
+    "biomes": "pleyacraft:atlasbiome",
     "features": "pleyacraft:rigerite_ore",
     "step": "underground_ores"
 }

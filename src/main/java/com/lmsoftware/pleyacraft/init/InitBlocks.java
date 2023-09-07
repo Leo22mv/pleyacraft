@@ -3,6 +3,7 @@ package com.lmsoftware.pleyacraft.init;
 import java.util.function.Supplier;
 
 import com.lmsoftware.pleyacraft.Pleyacraft;
+// import com.lmsoftware.pleyacraft.block.custom.AtlasPortalBlock;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -41,6 +42,13 @@ public class InitBlocks {
         "rigerite_block",
         () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3.0f).requiresCorrectToolForDrops()),
         new Item.Properties().tab(Pleyacraft.TAB).fireResistant());
+
+        // public static final RegistryObject<Block> ATLAS_PORTAL = registerBlockWithoutBlockItem("atlas_portal",
+        // AtlasPortalBlock::new);
+
+        private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
+            return BLOCKS.register(name, block);
+        }
 
     private static <T extends Block> RegistryObject<T> register(
             String name,

@@ -23,18 +23,23 @@ public class InitFeatures {
 	public static final DeferredRegister<ConfiguredFeature<?, ?>> CONFIGURED_FEATURES =
 			DeferredRegister.create(Registry.CONFIGURED_FEATURE_REGISTRY, Pleyacraft.MODID);
 
-	private static final Supplier<List<OreConfiguration.TargetBlockState>> PLEYARITE_OVERWORLD_REPLACE =
+	private static final Supplier<List<OreConfiguration.TargetBlockState>> PLEYARITE_ORE_BLOCK_ATLAS_REPLACE =
 			Suppliers.memoize(() -> List.of(
-					OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, InitBlocks.PLEYARITE_ORE_BLOCK.get().defaultBlockState()),
-					OreConfiguration.target(new BlockMatchTest(Blocks.IRON_ORE), InitBlocks.PLEYARITE_ORE_BLOCK.get().defaultBlockState()),
-					OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, InitBlocks.PLEYARITE_ORE_BLOCK.get().defaultBlockState())
+					OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, InitBlocks.PLEYARITE_ORE_BLOCK.get().defaultBlockState())
+					// OreConfiguration.target(new BlockMatchTest(Blocks.IRON_ORE), InitBlocks.PLEYARITE_ORE_BLOCK.get().defaultBlockState()),
+					// OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, InitBlocks.PLEYARITE_ORE_BLOCK.get().defaultBlockState())
 			));
 
-	private static final Supplier<List<OreConfiguration.TargetBlockState>> RIGERITE_OVERWORLD_REPLACE =
+	private static final Supplier<List<OreConfiguration.TargetBlockState>> RIGERITE_ORE_BLOCK_ATLAS_REPLACE =
 			Suppliers.memoize(() -> List.of(
-				OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, InitBlocks.RIGERITE_ORE_BLOCK.get().defaultBlockState()),
-				OreConfiguration.target(new BlockMatchTest(Blocks.IRON_ORE), InitBlocks.RIGERITE_ORE_BLOCK.get().defaultBlockState()),
-				OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, InitBlocks.RIGERITE_ORE_BLOCK.get().defaultBlockState())
+				OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, InitBlocks.RIGERITE_ORE_BLOCK.get().defaultBlockState())
+				// OreConfiguration.target(new BlockMatchTest(Blocks.IRON_ORE), InitBlocks.RIGERITE_ORE_BLOCK.get().defaultBlockState()),
+				// OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, InitBlocks.RIGERITE_ORE_BLOCK.get().defaultBlockState())
+			));
+
+	private static final Supplier<List<OreConfiguration.TargetBlockState>> COPPER_ORE_ATLAS_REPLACE =
+			Suppliers.memoize(() -> List.of(
+				OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, Blocks.COPPER_ORE.defaultBlockState())
 			));
 	
 
@@ -42,7 +47,7 @@ public class InitFeatures {
 			"pleyarite_ore",
 			() -> new ConfiguredFeature<>(
 				Feature.ORE,
-				new OreConfiguration(PLEYARITE_OVERWORLD_REPLACE.get(), 8)
+				new OreConfiguration(PLEYARITE_ORE_BLOCK_ATLAS_REPLACE.get(), 8)
 			)
 	);
 
@@ -50,7 +55,15 @@ public class InitFeatures {
 			"rigerite_ore",
 			() -> new ConfiguredFeature<>(
 					Feature.ORE,
-					new OreConfiguration(RIGERITE_OVERWORLD_REPLACE.get(), 4)
+					new OreConfiguration(RIGERITE_ORE_BLOCK_ATLAS_REPLACE.get(), 4)
+			)
+	);
+
+	public static final RegistryObject<ConfiguredFeature<?, ?>> COPPER_ORE = CONFIGURED_FEATURES.register(
+			"copper_ore",
+			() -> new ConfiguredFeature<>(
+					Feature.ORE,
+					new OreConfiguration(COPPER_ORE_ATLAS_REPLACE.get(), 18)
 			)
 	);
 }

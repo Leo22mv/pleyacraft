@@ -1,0 +1,6 @@
+{
+    "parent" : "minecraft:item/handheld",
+    "textures" : {
+        "layer0" : "pleyacraft:items/rigerite_sword_item"
+    }
+}

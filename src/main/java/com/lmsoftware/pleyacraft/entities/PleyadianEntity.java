@@ -78,7 +78,8 @@ public class PleyadianEntity extends TamableAnimal{
         return Mob.createMobAttributes()
                 .add(Attributes.ATTACK_DAMAGE, 3.0D)
                 .add(Attributes.ARMOR, 10.0D)
-                .add(Attributes.MAX_HEALTH, 30.0D);
+                .add(Attributes.MAX_HEALTH, 30.0D)
+                .add(Attributes.MOVEMENT_SPEED, 0.4D);
     }
 
     @Override

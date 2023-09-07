@@ -26,13 +26,18 @@
     "item.pleyacraft.rigerite_chestplate" : "Armadura de rigerita",
     "item.pleyacraft.rigerite_leggings" : "Pantalones de rigerita",
     "item.pleyacraft.rigerite_boots" : "Botas de rigerita",
+    "item.pleyacraft.rocket" : "Cohete",
     "block.pleyacraft.pleyarite_ore_block" : "Mineral de pleyarita",
     "block.pleyacraft.pleyarite_block" : "Bloque de pleyarita",
     "block.pleyacraft.rigerite_ore_block" : "Mineral de rigerita",
     "block.pleyacraft.rigerite_block" : "Bloque de rigerita",
     "entity.pleyacraft.pleyadian" : "Pleyadiano",
     "entity.pleyacraft.rigelian" : "Rigeliano",
+    "entity.pleyacraft.upper_pleyadian" : "Pleyadiano superior",
+    "entity.pleyacraft.upper_rigelian" : "Rigeliano superior",
+    "entity.pleyacraft.rocket" : "Cohete",
     "itemGroup.pleyacraft" : "Pleyacraft",
-    "key.category.pleyacraft.pleyacraft" : "Pleyacraft",
-    "key.pleyacraft.spell_mode" : "Cambiar modo uso de bastón elemental"
+    "key.category.pleyacraft.pleyacraft" : "Cohete (Pleyacraft)",
+    "key.pleyacraft.spell_mode" : "Elegir destino",
+    "key.pleyacraft.travel" : "Iniciar viaje"
 }

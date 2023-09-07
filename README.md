@@ -1,5 +1,21 @@
 ¡Bienvenido a Pleyacraft!
 
+Notas de la version 1.3:
+
+    + Nuevos items:
+        - Armaduras de pleyarita
+        - Minerales, lingotes, herramientas y armaduras de rigerita
+        - Piedras de fuego y hielo
+        - Bastón elemental
+
+    + Nuevas estructuras:
+        - Naves rigelianas superiores
+
+    + Nuevos mobs:
+        - Pleyadianos superiores
+
+    + Nuevos bloques:
+        - Bloque de rigerita
 
 Notas de la versión 1.2:
 

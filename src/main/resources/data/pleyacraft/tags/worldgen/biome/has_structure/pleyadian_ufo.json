@@ -12,6 +12,7 @@
       "minecraft:savanna",
       "minecraft:savanna_plateau",
       "minecraft:windswept_savanna",
-      "minecraft:swamp"
+      "minecraft:swamp",
+      "pleyacraft:atlasbiome"
     ]
 }

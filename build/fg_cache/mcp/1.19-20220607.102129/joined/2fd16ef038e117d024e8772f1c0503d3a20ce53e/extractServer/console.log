@@ -1,0 +1,13 @@
+JVM:         C:\Program Files\Java\jdk-17\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "bundler_extract", "--input", "D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\downloadServer\server.jar", "--output", "D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\extractServer\output.jar", "--jar-only"
+Classpath:   C:\Users\Usuario\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.0\installertools-1.3.0-fatjar.jar
+Working Dir: D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\extractServer
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: BUNDLER_EXTRACT
+Input:   D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\downloadServer\server.jar
+Output:  D:\Programacion\mods minecraft\pleyacraft\build\fg_cache\mcp\1.19-20220607.102129\joined\2fd16ef038e117d024e8772f1c0503d3a20ce53e\extractServer\output.jar
+All:     false
+JarOnly: true
+Libs:    false
+Extracted: versions/1.19/server-1.19.jar
